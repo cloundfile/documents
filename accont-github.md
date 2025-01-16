@@ -24,3 +24,23 @@ ssh-add C:\Users\user\.ssh\personal_key
 ```
 ssh-add C:\Users\user\.ssh\work_key
 ```
+
+> .gitconfig
+```
+[filter "lfs"]
+	clean   = git-lfs clean -- %f
+	smudge  = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[includeif "gitdir:D:/LABORATORIO/AMBIENTE/INNEOBR/"]
+	path = ./.gitconfig-inneobr
+[includeif "gitdir:D:/LABORATORIO/AMBIENTE/CLOUDFILE/"]
+	path = ./.gitconfig-cloundfile
+[user]
+	name  = eduardo.cruz
+	email = tecnologiaesolucoespr@gmail.com
+[core]
+	sshCommand = C:\Windows\System32\OpenSSH\ssh.exe
+```
+
+
