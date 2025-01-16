@@ -15,3 +15,12 @@ ssh-keygen -t rsa -b 4096 -C "git-work"
 Enter file in which to save the key (C:\Users\user\.ssh\id_rsa): C:\Users\user\.ssh\work_key
 
 > Abrir o git SSG e adicionar as chaves
+
+> Adicionar as chaves ao ssh para não ficar pedindo login
+```
+ssh-add C:\Users\user\.ssh\personal_key
+```
+
+```
+ssh-add C:\Users\user\.ssh\work_key
+```
