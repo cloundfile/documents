@@ -43,4 +43,22 @@ ssh-add C:\Users\user\.ssh\work_key
 	sshCommand = C:\Windows\System32\OpenSSH\ssh.exe
 ```
 
+> gitconfig-inneobr
+```
+[user]
+	name  = inneobr
+	email = cadastro@inneo.org
+[core]
+	sshCommand = "ssh -i ~/.ssh/inneobr_key"	
+```
+
+> gitconfig-cloundfile
+```
+[user]
+	name  = cloundfile
+	email = tecnologiaesolucoespr@gmail.com
+[core]
+	sshCommand = "ssh -i ~/.ssh/cloundfile_key"
+```
+
 
