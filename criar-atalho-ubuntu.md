@@ -1,13 +1,13 @@
->. Navegar até a pasta arquivos compartilhados
+### Navegar até a pasta arquivos compartilhados
 ´´´
 cd ~/.local/share/applications/
 ´´´
->. Criar o arquivo de acesso ao sqldeveloper
+### Criar o arquivo de acesso ao sqldeveloper
 ´´´
 nano sqldeveloper.desktop
 ´´´
 
->. Conteudo do arquivo
+### Conteudo do arquivo
 ´´´
 GNU nano 7.2                  sqldeveloper.desktop                            
 [Desktop Entry]
@@ -20,12 +20,12 @@ Type=Application
 Categories=Development;Database;
 ´´´
 
->. Conceder as permições ao arquivo
+### Conceder as permições ao arquivo
 ´´´
 chmod +x ~/.local/share/applications/sqldeveloper.desktop
 ´´´
 
->. Atualizar o menu
+### Atualizar o menu
 ´´´
 update-desktop-database ~/.local/share/applications/
 ´´´
