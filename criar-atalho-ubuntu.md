@@ -9,7 +9,7 @@ nano sqldeveloper.desktop
 
 ### Conteudo do arquivo
 ```
-GNU nano 7.2                  sqldeveloper.desktop                            
+GNU nano 7.2 sqldeveloper.desktop                            
 [Desktop Entry]
 Name=SQL Developer
 Comment=Ferramenta de Desenvolvimento para Oracle SQL
