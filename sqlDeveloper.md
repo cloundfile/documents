@@ -1,3 +1,37 @@
+### Descompacta o sqlDeveloper] 
+```
+unzip sqldeveloper-24.3.1.347.1826-no-jre.zip
+```
+
+### Move para pasta opt
+```
+sudo mv sqldeveloper /opt/
+```
+
+### Consede permição ao sh
+```
+chmod +x /opt/sqldeveloper/sqldevelopr.sh
+```
+
+### Executa sqlDeveloper
+```
+sudo sh sqldeveloper.sh
+```
+
+### Instala o tree
+```
+sudo apt install tree
+```
+### Configura a variavel
+```
+echo 'export PATH=$PATH:/opt/sqldeveloper/sqldeveloper/bin' >> ~/.bashrc && sudo tree -a ~
+```
+
+### Executa o bash
+```
+source ~/.bashrc
+```
+
 ### Navegar até a pasta arquivos compartilhados
 ```
 cd ~/.local/share/applications/
