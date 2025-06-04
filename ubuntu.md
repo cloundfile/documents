@@ -12,3 +12,8 @@
 ```
 rm -rf pasta
 ```
+
+> Killer process port
+```
+kill $(lsof -t -i:3333)
+```
